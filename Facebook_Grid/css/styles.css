@@ -1,0 +1,1244 @@
+/* line 1, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.container {
+  position: relative;
+  height: 1000px;
+  overflow: hidden;
+  width: 100%;
+}
+
+/* line 7, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.fbpage {
+  background: #E9EBED;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 40px;
+}
+
+/* line 16, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.whitespaceleft .whitespaceright {
+  width: 200px;
+  height: 100%;
+}
+
+/* line 20, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.middle {
+  display: relative;
+  width: calc(100% - 400px);
+  height: 100%;
+  /* background: green; */
+}
+
+/* line 26, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.flex-minicontainer {
+  position: absolute;
+  left: 380px;
+  width: 769px;
+  height: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  /* background: green; */
+}
+
+/* line 36, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.header {
+  height: 40px;
+  width: 100%;
+  background: #4267b2;
+  position: fixed;
+  z-index: 1;
+}
+
+/* line 43, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.headerLeft {
+  width: 480px;
+  height: 40px;
+  /* background: red; */
+  left: 200px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
+/* line 52, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.header-fblogo {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: yellow;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+/* line 62, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.search {
+  width: 450px;
+  /*background: red; */
+  display: flex;
+  align-items: center;
+  margin-left: 7px;
+}
+
+/* line 69, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.search1 {
+  border: none;
+  border-radius: 3px 0px 0px 3px;
+  width: 400px;
+  height: 22px;
+  cursor: text;
+}
+
+/* line 76, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+::placeholder {
+  color: gray;
+  font-size: 0.8em;
+  text-indent: 9px;
+  font-family: Arial;
+}
+
+/* line 82, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.search2 {
+  height: 24px;
+  background: #e0e0eb;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 3px 3px 0px;
+  cursor: pointer;
+}
+
+/* line 92, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.headerRight {
+  width: 370px;
+  height: 40px;
+  /* background: red; */
+  margin-left: 796px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 101, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.dancer {
+  border-radius: 50%;
+  border: 1px solid #dddfe2;
+}
+
+/* line 105, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.myPhoto {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+/* line 111, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.myPhoto:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* line 114, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.myPhoto span {
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+  font-size: 13px;
+  margin-left: -10px;
+}
+
+/* line 121, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.name {
+  border-right: 1px solid #10295e;
+  width: 80px;
+}
+
+/* line 125, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.home {
+  border-right: 1px solid #10295e;
+  width: 60px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* line 133, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.home span {
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+  font-size: 13px;
+  padding: px;
+}
+
+/* line 140, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.home:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+/* line 143, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.icons {
+  width: 120px;
+  border-right: 1px solid #10295e;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 24px;
+  margin-left: 4px;
+  padding-right: 8px;
+  cursor: pointer;
+}
+
+/* line 155, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.fa-globe {
+  margin-right: -8px;
+  margin-top: 4px;
+}
+
+/* line 159, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.fa-user-friends {
+  margin-top: 4px;
+}
+
+/* line 162, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.icons .fa-facebook-messenger {
+  margin-top: 4px;
+}
+
+/* line 165, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.help {
+  width: 80px;
+  cursor: pointer;
+}
+
+/* line 169, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.help1 {
+  /* background: green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* line 175, C:/Users/oferg/FED/Facebook Grid/scss/_generalheader.scss */
+.fa-sort-down {
+  margin-bottom: 8px;
+  margin-left: -20px;
+}
+
+/* line 1, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidebar {
+  /* background: yellow; */
+  width: 180px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  position: fixed;
+}
+
+/* line 10, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidename {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+}
+
+/* line 17, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidenamephoto {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+}
+
+/* line 25, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidenamephoto:hover {
+  background: #f6f7f9;
+  border: 1px solid #dddfe2;
+}
+
+/* line 29, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidename span {
+  justify-content: space-between;
+  font-family: Arial;
+  font-size: 13px;
+  margin-left: 5px;
+  display: flex;
+}
+
+/* line 36, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidenamephoto > .dancer {
+  margin-left: 5px;
+}
+
+/* line 39, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidenewsfeed {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+  background: #f6f7f9;
+  border: 1px solid #dddfe2;
+  cursor: pointer;
+}
+
+/* line 49, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidenewsfeedphoto {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 140px;
+  height: 25px;
+}
+
+/* line 56, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidenewsfeedphoto span {
+  justify-content: center;
+  font-family: Arial;
+  font-size: 13px;
+  margin-left: 10px;
+  display: flex;
+  font-weight: bold;
+}
+
+/* line 64, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidenewsfeedphoto .fa-file-alt {
+  margin-left: 4px;
+}
+
+/* line 67, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidemessenger {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+}
+
+/* line 74, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidemessengerphoto {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 140px;
+  height: 25px;
+  margin-left: 3px;
+}
+
+/* line 82, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidemessengerphoto span {
+  font-family: Arial;
+  font-size: 13px;
+  justify-content: center;
+  margin-left: 8px;
+  display: flex;
+}
+
+/* line 89, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidemessenger:hover {
+  background: #f6f7f9;
+  border: 1px solid #dddfe2;
+  cursor: pointer;
+}
+
+/* line 94, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidemarketplacephoto span {
+  font-family: Arial;
+  font-size: 13px;
+  justify-content: center;
+  margin-left: 6px;
+}
+
+/* line 100, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidemarketplace {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+}
+
+/* line 107, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidemarketplacephoto {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 140px;
+  height: 25px;
+  margin-left: 3px;
+}
+
+/* line 115, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidemarketplace:hover {
+  background: #f6f7f9;
+  border: 1px solid #dddfe2;
+  cursor: pointer;
+}
+
+/* line 120, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sideshortcuts {
+  display: flex;
+  justify-content: flex-start;
+  width: 150px;
+  height: 30px;
+}
+
+/* line 126, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sideshortcuts span {
+  display: flex;
+  align-items: flex-end;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  color: #616770;
+  margin-left: 5px;
+}
+
+/* line 135, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidemccannphoto {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 140px;
+  height: 25px;
+  margin-left: 4px;
+}
+
+/* line 143, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidemccann {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+}
+
+/* line 150, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidemccannphoto span {
+  font-family: Arial;
+  font-size: 13px;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+/* line 156, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.fa-lightbulb {
+  margin-left: 2px;
+}
+
+/* line 159, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidemccann:hover {
+  background: #f6f7f9;
+  border: 1px solid #dddfe2;
+  cursor: pointer;
+}
+
+/* line 164, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sideexplore {
+  display: flex;
+  justify-content: flex-start;
+  width: 150px;
+  height: 30px;
+}
+
+/* line 170, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sideexplore span {
+  display: flex;
+  align-items: flex-end;
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  color: #616770;
+  margin-left: 5px;
+}
+
+/* line 179, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sideevents {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+}
+
+/* line 186, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sideevents:hover {
+  background: #f6f7f9;
+  border: 1px solid #dddfe2;
+  cursor: pointer;
+}
+
+/* line 191, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sideeventsphoto {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 140px;
+  height: 25px;
+  margin-left: 3px;
+}
+
+/* line 199, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sideeventsphoto span {
+  font-family: Arial;
+  font-size: 13px;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+/* line 205, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.fa-calendar {
+  margin-left: 3px;
+}
+
+/* line 208, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidegrpous {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+}
+
+/* line 215, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidegrpous:hover {
+  background: #f6f7f9;
+  border: 1px solid #dddfe2;
+  cursor: pointer;
+}
+
+/* line 220, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidegrpousphoto {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 140px;
+  height: 25px;
+  margin-left: 3px;
+}
+
+/* line 228, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidegroupsphoto span {
+  font-family: Arial;
+  font-size: 13px;
+  justify-content: center;
+  margin-left: 3px;
+}
+
+/* line 234, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.fa-users {
+  margin-left: 5px;
+}
+
+/* line 237, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidepages {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+}
+
+/* line 244, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidepages:hover {
+  background: #f6f7f9;
+  border: 1px solid #dddfe2;
+  cursor: pointer;
+}
+
+/* line 249, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidepagesphoto {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 140px;
+  height: 25px;
+  margin-left: 3px;
+}
+
+/* line 257, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidepagesphoto span {
+  font-family: Arial;
+  font-size: 13px;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+/* line 263, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.fa-font-awesome-alt {
+  margin-left: 2px;
+}
+
+/* line 266, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidefriendlists {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+}
+
+/* line 273, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidefriendlists:hover {
+  background: #f6f7f9;
+  border: 1px solid #dddfe2;
+  cursor: pointer;
+}
+
+/* line 278, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidefriendlistsphoto {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 140px;
+  height: 25px;
+  margin-left: 3px;
+}
+
+/* line 286, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidefriendlistsphoto span {
+  font-family: Arial;
+  font-size: 13px;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+/* line 292, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.fa-user-circle {
+  margin-left: 2px;
+}
+
+/* line 295, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sideonthisday {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+}
+
+/* line 302, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sideonthisday:hover {
+  background: #f6f7f9;
+  border: 1px solid #dddfe2;
+  cursor: pointer;
+}
+
+/* line 307, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sideonthisdayphoto {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 140px;
+  height: 25px;
+  margin-left: 3px;
+}
+
+/* line 315, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sideonthisdayphoto span {
+  font-family: Arial;
+  font-size: 13px;
+  justify-content: center;
+  margin-left: 8px;
+}
+
+/* line 321, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.fa-clock {
+  margin-left: 2px;
+}
+
+/* line 324, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidepagesfeed {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+}
+
+/* line 331, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidepagesfeed:hover {
+  background: #f6f7f9;
+  border: 1px solid #dddfe2;
+  cursor: pointer;
+}
+
+/* line 336, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidepagesfeedphoto {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 140px;
+  height: 25px;
+  margin-left: 3px;
+}
+
+/* line 344, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidepagesfeedphoto span {
+  font-family: Arial;
+  font-size: 13px;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+/* line 350, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidepagesfeedphoto .fa-file-alt {
+  margin-left: 4px;
+}
+
+/* line 353, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidemanageapps {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 150px;
+  height: 30px;
+}
+
+/* line 360, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidemanageapps:hover {
+  background: #f6f7f9;
+  border: 1px solid #dddfe2;
+  cursor: pointer;
+}
+
+/* line 365, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidemanageappsphoto {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 140px;
+  height: 25px;
+  margin-left: 5px;
+}
+
+/* line 373, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.sidemanageappsphoto span {
+  font-family: Arial;
+  font-size: 13px;
+  justify-content: center;
+  margin-left: 8px;
+}
+
+/* line 379, C:/Users/oferg/FED/Facebook Grid/scss/_sidebar.scss */
+.fa-wrench {
+  margin-left: 2px;
+}
+
+/* line 1, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.posts {
+  /* background: yellow;*/
+  width: 470px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 8, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.statuspost {
+  display: flex;
+  width: 450px;
+  height: 150px;
+  background: blue;
+  margin-top: 10px;
+  margin-left: 10px;
+  background: #fff;
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+  flex-direction: column;
+}
+
+/* line 20, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.item-1 {
+  width: 450px;
+  height: 30px;
+  background: #f6f7f9;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+/* line 28, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.makepost {
+  border-right: 1px solid #dddfe2;
+  width: 100px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* line 36, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.fa-pencil-alt {
+  margin-left: 7px;
+}
+
+/* line 40, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.makepost span {
+  font-family: Arial;
+  font-size: 13px;
+  margin-left: 7px;
+  font-weight: bold;
+  color: #365899;
+}
+
+/* line 47, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.album {
+  border-right: 1px solid #dddfe2;
+  width: 160px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* line 55, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.album span {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 7px;
+  color: #365899;
+}
+
+/* line 62, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.fa-address-card {
+  margin-left: 7px;
+}
+
+/* line 65, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.video {
+  width: 150px;
+  height: 20px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* line 73, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.video span {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  color: #365899;
+  margin-left: 7px;
+}
+
+/* line 80, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.fa-video {
+  margin-left: 5px;
+}
+
+/* line 83, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.item-2 {
+  width: 450px;
+  height: 70px;
+  border-top: 1px solid #dddfe2;
+  border-bottom: 1px solid #dddfe2;
+  display: flex;
+  align-items: center;
+}
+
+/* line 91, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.postphoto {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+/* line 96, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.postphoto span {
+  font-family: Arial;
+  color: gray;
+  margin-left: 10px;
+  cursor: text;
+}
+
+/* line 102, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.postphotodancer {
+  border-radius: 50%;
+  border: 1px solid #dddfe2;
+  cursor: pointer;
+}
+
+/* line 107, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.item-3 {
+  width: 450px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+
+/* line 113, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.photovideo {
+  border-radius: 18px;
+  background: #f6f7f9;
+  width: 140px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+/* line 122, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.photovideo:hover {
+  cursor: pointer;
+  background-color: #e9ebee;
+}
+
+/* line 126, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.photovideo span {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  color: #365899;
+  margin-left: 10px;
+}
+
+/* line 133, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.fa-image {
+  margin-left: 16px;
+}
+
+/* line 136, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.feeling {
+  border-radius: 18px;
+  background: #f6f7f9;
+  width: 160px;
+  height: 30px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+/* line 145, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.feeling:hover {
+  cursor: pointer;
+  background-color: #e9ebee;
+}
+
+/* line 149, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.feeling span {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  color: #365899;
+  margin-left: 10px;
+}
+
+/* line 156, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.fa-smile {
+  margin-left: 15px;
+}
+
+/* line 159, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.dots {
+  border-radius: 18px;
+  background: #f6f7f9;
+  width: 50px;
+  height: 30px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+/* line 168, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.dots:hover {
+  cursor: pointer;
+  background-color: #e9ebee;
+}
+
+/* line 172, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.fa-ellipsis-h {
+  margin-left: 16px;
+}
+
+/* line 175, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.post-1 {
+  width: 450px;
+  height: 286.4px;
+  background: blue;
+  margin: 10px;
+  background: #fff;
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 186, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.postgeneraltext-1 {
+  width: 450px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+}
+
+/* line 192, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.postphoto-1 {
+  width: 50px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+}
+
+/* line 198, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.laruga-1 {
+  border-radius: 50%;
+  border: 1px solid #dddfe2;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* line 204, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.postdiv-1 {
+  width: 150px;
+  height: 46px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  justify-content: center;
+}
+
+/* line 212, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.post-name-1 span {
+  color: #365899;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* line 218, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.post-name-1:hover {
+  text-decoration: underline;
+  text-decoration-color: #365899;
+  text-decoration-style: solid;
+  cursor: pointer;
+}
+
+/* line 224, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.date-post1 span {
+  color: #8d949e;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+/* line 229, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.date-post1:hover {
+  text-decoration: underline;
+  text-decoration-color: #8d949e;
+  text-decoration-style: solid;
+  cursor: pointer;
+}
+
+/* line 235, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.postimage-1 {
+  width: 450px;
+  height: 231.4px;
+}
+
+/* line 239, C:/Users/oferg/FED/Facebook Grid/scss/_posts.scss */
+.laruga-postimage-1 {
+  border-radius: 0px 0px 5px 5px;
+}
+
+/* line 1, C:/Users/oferg/FED/Facebook Grid/scss/_eventcolumn.scss */
+.eventcolumn {
+  /* background: green; */
+  width: 284px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 8, C:/Users/oferg/FED/Facebook Grid/scss/_eventcolumn.scss */
+.stories {
+  width: 274px;
+  height: 180px;
+  background: blue;
+  margin-top: 10px;
+  background: #fff;
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 20, C:/Users/oferg/FED/Facebook Grid/scss/_eventcolumn.scss */
+.storiesheader > .fa-ellipsis-h {
+  cursor: pointer;
+}
+
+/* line 23, C:/Users/oferg/FED/Facebook Grid/scss/_eventcolumn.scss */
+.storiesheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  height: 40px;
+  /* background: yellow; */
+}
+
+/* line 31, C:/Users/oferg/FED/Facebook Grid/scss/_eventcolumn.scss */
+.storiesheader span {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  color: #365899;
+}
+
+/* line 37, C:/Users/oferg/FED/Facebook Grid/scss/_eventcolumn.scss */
+.story-1 {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 70px;
+  /*  background: cadetblue; */
+}
+
+/* line 44, C:/Users/oferg/FED/Facebook Grid/scss/_eventcolumn.scss */
+.gili-story-1 {
+  border-radius: 50%;
+  cursor: pointer;
+  /* border: 2px solid #bec3c9; */
+}
+
+/* line 49, C:/Users/oferg/FED/Facebook Grid/scss/_eventcolumn.scss */
+.text-story-1 {
+  width: 150px;
+  height: 46px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  justify-content: center;
+}
+
+/* line 57, C:/Users/oferg/FED/Facebook Grid/scss/_eventcolumn.scss */
+.text-story-1 span {
+  color: #365899;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* line 63, C:/Users/oferg/FED/Facebook Grid/scss/_eventcolumn.scss */
+.name-story-1 span:hover {
+  text-decoration: underline;
+  text-decoration-color: #365899;
+}
+
+/* line 67, C:/Users/oferg/FED/Facebook Grid/scss/_eventcolumn.scss */
+.time-story-1 span {
+  color: #8d949e;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+/* line 72, C:/Users/oferg/FED/Facebook Grid/scss/_eventcolumn.scss */
+.border-photo-story-1 {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: rgba(29, 33, 41, 0.08);
+  border: 2px solid #3578e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* line 83, C:/Users/oferg/FED/Facebook Grid/scss/_eventcolumn.scss */
+.story-2 {
+  display: flex;
+  align-items: center;
+  width: 250px;
+  height: 70px;
+  /* background: yellow; */
+}
+
+/* line 90, C:/Users/oferg/FED/Facebook Grid/scss/_eventcolumn.scss */
+.shahaf-story-2 {
+  border-radius: 50%;
+  cursor: pointer;
+  /* border: 2px solid #bec3c9; */
+}
+
+/* line 95, C:/Users/oferg/FED/Facebook Grid/scss/_eventcolumn.scss */
+.text-story-2 {
+  width: 150px;
+  height: 46px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  justify-content: center;
+}
+
+/* line 103, C:/Users/oferg/FED/Facebook Grid/scss/_eventcolumn.scss */
+.text-story-2 span {
+  color: #365899;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* line 109, C:/Users/oferg/FED/Facebook Grid/scss/_eventcolumn.scss */
+.name-story-2 span:hover {
+  text-decoration: underline;
+  text-decoration-color: #365899;
+}
+
+/* line 113, C:/Users/oferg/FED/Facebook Grid/scss/_eventcolumn.scss */
+.time-story-2 span {
+  color: #8d949e;
+  font-family: Arial;
+  font-size: 12px;
+}
+
+/* line 118, C:/Users/oferg/FED/Facebook Grid/scss/_eventcolumn.scss */
+.border-photo-story-2 {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: rgba(29, 33, 41, 0.08);
+  border: 2px solid #3578e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* line 129, C:/Users/oferg/FED/Facebook Grid/scss/_eventcolumn.scss */
+.events {
+  width: 274px;
+  height: 50px;
+  background: blue;
+  margin-top: 10px;
+  background: #fff;
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+}
+
+/* line 138, C:/Users/oferg/FED/Facebook Grid/scss/_eventcolumn.scss */
+.language {
+  width: 274px;
+  height: 80px;
+  background: blue;
+  margin-top: 10px;
+  background: #fff;
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=../css/styles.map */

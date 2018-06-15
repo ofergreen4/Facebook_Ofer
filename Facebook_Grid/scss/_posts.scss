@@ -1,0 +1,241 @@
+.posts {
+  /* background: yellow;*/
+  width: 470px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.statuspost {
+  display: flex;
+  width: 450px;
+  height: 150px;
+  background: blue;
+  margin-top: 10px;
+  margin-left: 10px;
+  background: #fff;
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+  flex-direction: column;
+}
+.item-1 {
+  width: 450px;
+  height: 30px;
+  background: #f6f7f9;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+.makepost {
+  border-right: 1px solid #dddfe2;
+  width: 100px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer; 
+}
+.fa-pencil-alt  {
+  margin-left: 7px;
+}
+
+.makepost span {
+  font-family: Arial;
+  font-size: 13px;
+  margin-left: 7px;
+  font-weight: bold;
+  color: #365899;
+}
+.album {
+  border-right: 1px solid #dddfe2;
+  width: 160px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  cursor: pointer; 
+}
+.album span {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  margin-left: 7px;
+  color: #365899;
+}
+.fa-address-card {
+  margin-left: 7px;
+}
+.video {
+  width: 150px;
+  height: 20px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  cursor: pointer; 
+}
+.video span {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  color: #365899;
+  margin-left: 7px;
+}
+.fa-video {
+  margin-left: 5px;
+}
+.item-2 {
+  width: 450px;
+  height: 70px;
+  border-top: 1px solid #dddfe2;
+  border-bottom: 1px solid #dddfe2;
+  display: flex;
+  align-items: center;
+}
+.postphoto {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.postphoto span {
+  font-family: Arial;
+  color: gray;
+  margin-left: 10px;
+  cursor: text;
+}
+.postphotodancer {
+  border-radius: 50%;
+  border: 1px solid #dddfe2;
+  cursor: pointer;
+  }
+.item-3 {
+  width: 450px;
+  height: 45px; 
+  display: flex;
+  align-items: center;
+}
+.photovideo {
+  border-radius: 18px;
+  background: #f6f7f9;
+  width: 140px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.photovideo:hover {
+  cursor: pointer;
+  background-color: #e9ebee;
+}
+.photovideo span {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  color: #365899;
+  margin-left: 10px;
+}
+.fa-image {
+  margin-left: 16px;
+}
+.feeling {
+  border-radius: 18px;
+  background: #f6f7f9;
+  width: 160px;
+  height: 30px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.feeling:hover {
+  cursor: pointer;
+  background-color: #e9ebee;
+}
+.feeling span {
+  font-family: Arial;
+  font-size: 13px;
+  font-weight: bold;
+  color: #365899;
+  margin-left: 10px;
+}
+.fa-smile {
+  margin-left: 15px;
+}
+.dots {
+  border-radius: 18px;
+  background: #f6f7f9;
+  width: 50px;
+  height: 30px;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+.dots:hover {
+  cursor: pointer;
+  background-color: #e9ebee;
+}
+.fa-ellipsis-h {
+  margin-left: 16px;
+}
+.post-1 {
+  width: 450px;
+  height: 286.4px;
+  background: blue;
+  margin: 10px;
+  background: #fff;
+  border: 1px solid #dddfe2;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.postgeneraltext-1 {
+  width: 450px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+}
+.postphoto-1 {
+  width: 50px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+}
+.laruga-1 {
+  border-radius: 50%;
+  border: 1px solid #dddfe2;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.postdiv-1 {
+  width: 150px;
+  height: 46px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  justify-content: center;
+}
+.post-name-1 span {
+  color: #365899;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+}
+.post-name-1:hover {
+  text-decoration: underline;
+  text-decoration-color: #365899;
+  text-decoration-style: solid; 
+  cursor: pointer;
+}
+.date-post1 span {
+  color: #8d949e;
+  font-family: Arial;
+  font-size: 12px;
+}
+.date-post1:hover {
+  text-decoration: underline;
+  text-decoration-color: #8d949e;
+  text-decoration-style: solid; 
+  cursor: pointer;
+}
+.postimage-1 {
+  width: 450px;
+  height: 231.4px; 
+}
+.laruga-postimage-1 {
+  border-radius: 0px 0px 5px 5px;
+}

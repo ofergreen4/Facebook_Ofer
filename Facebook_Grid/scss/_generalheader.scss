@@ -1,0 +1,178 @@
+.container {
+  position: relative;
+  height: 1000px;
+  overflow: hidden;
+  width: 100%;
+}
+.fbpage {
+  background: #E9EBED;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 40px;
+}
+.whitespaceleft .whitespaceright {
+  width: 200px;
+  height: 100%;
+}
+.middle {
+  display: relative;
+  width: calc(100% - 400px);
+  height: 100%;
+  /* background: green; */
+}
+.flex-minicontainer {
+  position: absolute;
+  left: 380px;
+  width: 769px;
+  height: 1000px;
+  display: flex;
+  justify-content: space-evenly;
+  /* background: green; */
+ 
+}
+.header {
+  height: 40px;
+  width: 100%;
+  background: #4267b2;
+  position: fixed;
+  z-index: 1;
+}
+.headerLeft {
+  width: 480px;
+  height: 40px;
+  /* background: red; */
+  left: 200px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+.header-fblogo {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: yellow;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.search {
+  width: 450px;
+  /*background: red; */
+  display: flex;
+  align-items: center;
+  margin-left: 7px;
+}
+.search1 {
+  border: none;
+  border-radius: 3px 0px 0px 3px;
+  width: 400px;
+  height: 22px;
+  cursor: text;
+}
+::placeholder {
+  color: gray;
+  font-size: 0.8em;
+  text-indent: 9px;
+  font-family: Arial;
+}
+.search2 {
+  height: 24px;
+  background: #e0e0eb;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 3px 3px 0px;
+  cursor: pointer;  
+}
+.headerRight {
+  width: 370px;
+  height: 40px;
+  /* background: red; */
+  margin-left: 796px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dancer {
+  border-radius: 50%;
+  border: 1px solid #dddfe2;
+}
+.myPhoto {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.myPhoto:hover {
+  background: rgba(0, 0, 0, .1);
+}
+.myPhoto span {
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+  font-size: 13px;
+  margin-left: -10px;
+}
+.name {
+  border-right: 1px solid #10295e;
+  width: 80px;
+}
+.home {
+  border-right: 1px solid #10295e;
+  width: 60px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.home span {
+  font-family: Arial;
+  font-weight: bold;
+  color: white;
+  font-size: 13px;
+  padding: px;
+}
+.home:hover {
+  background: rgba(0, 0, 0, .1);
+}
+.icons {
+  width: 120px;
+  border-right: 1px solid #10295e;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 24px;
+  margin-left: 4px;
+  padding-right: 8px;
+  cursor: pointer;
+}
+
+.fa-globe {
+  margin-right: -8px;
+  margin-top: 4px;
+}
+.fa-user-friends {
+  margin-top: 4px;
+}
+.icons .fa-facebook-messenger {
+  margin-top: 4px;
+}
+.help {
+  width: 80px;
+  cursor: pointer;
+}
+.help1 {
+  /* background: green; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.fa-sort-down {
+  margin-bottom: 8px;
+  margin-left: -20px;
+}
