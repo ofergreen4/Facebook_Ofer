@@ -1,0 +1,19 @@
+$post_width: 450px;
+$event_width: 274px;
+$color_text_blue: #365899;
+
+@mixin side() {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 150px;
+        height: 30px;
+}
+@mixin side_photo() {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 140px;
+    height: 25px;
+    margin-left: 3px;
+}

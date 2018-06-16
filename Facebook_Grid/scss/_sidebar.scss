@@ -46,13 +46,6 @@
     border: 1px solid #dddfe2;
     cursor: pointer;
   }
-.sidenewsfeedphoto{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 140px;
-    height: 25px; 
-  }
   .sidenewsfeedphoto span {
     justify-content: center;
     font-family: Arial;
@@ -62,23 +55,8 @@
     font-weight: bold;
   }
 .sidenewsfeedphoto .fa-file-alt {
-   margin-left: 4px;
+   margin-left: 2px;
   }
-  .sidemessenger {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 150px;
-    height: 30px;
-  }
-  .sidemessengerphoto {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 140px;
-    height: 25px;
-    margin-left: 3px;
-}
   .sidemessengerphoto span {
     font-family: Arial;
     font-size: 13px; 
@@ -97,21 +75,6 @@
     justify-content: center;
     margin-left: 6px;
   }
-  .sidemarketplace {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 150px;
-    height: 30px;
-  }  
-.sidemarketplacephoto {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 140px;
-    height: 25px;
-    margin-left: 3px;
-}
 .sidemarketplace:hover {
   background: #f6f7f9;
   border: 1px solid #dddfe2;
@@ -131,21 +94,6 @@
     font-weight: bold;
     color: #616770;
     margin-left: 5px;
-  }
-  .sidemccannphoto {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 140px;
-    height: 25px;
-    margin-left: 4px;
-  }
-  .sidemccann {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 150px;
-    height: 30px;
   }
   .sidemccannphoto span {
     font-family: Arial;
@@ -176,25 +124,10 @@
     color: #616770;
     margin-left: 5px;
   }
-  .sideevents {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 150px;
-    height: 30px;
-  }
   .sideevents:hover {
     background: #f6f7f9;
     border: 1px solid #dddfe2;
     cursor: pointer;    
-  }
-  .sideeventsphoto {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 140px;
-    height: 25px;
-    margin-left: 3px;
   }
   .sideeventsphoto span {
     font-family: Arial;
@@ -205,25 +138,10 @@
   .fa-calendar {
     margin-left: 3px;
   }
-  .sidegrpous {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 150px;
-    height: 30px;
-  }
   .sidegrpous:hover {
     background: #f6f7f9;
     border: 1px solid #dddfe2;
     cursor: pointer;    
-  }
-  .sidegrpousphoto {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 140px;
-    height: 25px;
-    margin-left: 3px;
   }
   .sidegroupsphoto span {
     font-family: Arial;
@@ -234,25 +152,10 @@
   .fa-users {
     margin-left: 5px;
   }
-  .sidepages {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 150px;
-    height: 30px;
-  }
   .sidepages:hover {
     background: #f6f7f9;
     border: 1px solid #dddfe2;
     cursor: pointer;    
-  }
-  .sidepagesphoto {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 140px;
-    height: 25px;
-    margin-left: 3px;
   }
   .sidepagesphoto span {
     font-family: Arial;
@@ -263,25 +166,10 @@
   .fa-font-awesome-alt {
     margin-left: 2px;
   }
- .sidefriendlists {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 150px;
-  height: 30px;
-}
 .sidefriendlists:hover {
   background: #f6f7f9;
   border: 1px solid #dddfe2;
   cursor: pointer;    
-}
-.sidefriendlistsphoto {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 140px;
-  height: 25px;
-  margin-left: 3px;
 }
 .sidefriendlistsphoto span {
   font-family: Arial;
@@ -292,25 +180,10 @@
 .fa-user-circle {
     margin-left: 2px;
   }
-.sideonthisday {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 150px;
-  height: 30px;
-}
 .sideonthisday:hover {
   background: #f6f7f9;
   border: 1px solid #dddfe2;
   cursor: pointer;    
-}
-.sideonthisdayphoto {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 140px;
-  height: 25px;
-  margin-left: 3px;
 }
 .sideonthisdayphoto span {
   font-family: Arial;
@@ -321,25 +194,10 @@
 .fa-clock {
     margin-left: 2px;
   }
-.sidepagesfeed {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 150px;
-  height: 30px;
-}
 .sidepagesfeed:hover {
   background: #f6f7f9;
   border: 1px solid #dddfe2;
   cursor: pointer;    
-}
-.sidepagesfeedphoto {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 140px;
-  height: 25px;
-  margin-left: 3px;
 }
 .sidepagesfeedphoto span {
   font-family: Arial;
@@ -350,25 +208,10 @@
 .sidepagesfeedphoto .fa-file-alt {
     margin-left: 4px;
   }
-.sidemanageapps {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 150px;
-  height: 30px;
-}
 .sidemanageapps:hover {
   background: #f6f7f9;
   border: 1px solid #dddfe2;
   cursor: pointer;    
-}
-.sidemanageappsphoto {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  width: 140px;
-  height: 25px;
-  margin-left: 5px;
 }
 .sidemanageappsphoto span {
   font-family: Arial;
@@ -378,4 +221,10 @@
   }
   .fa-wrench {
     margin-left: 2px;
+  }
+  .sidemessenger, .sidemarketplace, .sidemccann, .sideevents, .sidegrpous, .sidepages, .sidefriendlists, .sideonthisday, .sidepagesfeed, .sidemanageapps {
+    @include side()
+}
+.sidenewsfeedphoto, .sidemessengerphoto, .sidemarketplacephoto, .sidemccannphoto, .sideeventsphoto, .sidegrpousphoto, .sidepagesphoto, .sidefriendlistsphoto, .sideonthisdayphoto, .sidepagesfeedphoto, .sidemanageappsphoto {
+   @include side_photo()
   }
