@@ -4,6 +4,8 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  position: relative;
+  left: 200px;
 }
 .statuspost {
   display: flex;
@@ -197,21 +199,31 @@ textarea {
   justify-content: center;
 }
 .post-1 {
-  width: $post_width;
-  height: 286.4px;
-  margin: 10px;
-  margin-bottom: 5px;
+  width: 430px;
+  height: 366.4px;
+  margin-left: 10px;
+  margin-top: 10px;
   background: #fff;
   border: 1px solid #dddfe2;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  padding-bottom: 0px;
 }
 .postgeneraltext-1 {
-  width: $post_width;
+  width: 430px;
   height: 55px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+.posttext-1 {
+  display: flex;
+  align-items: center;
+  width: 430px;
+  height: 55px;
 }
 .postphoto-1 {
   width: 50px;
@@ -222,7 +234,6 @@ textarea {
 .laruga-1 {
   border-radius: 50%;
   border: 1px solid #dddfe2;
-  margin-left: 10px;
   cursor: pointer;
 }
 .postdiv-1 {
@@ -257,15 +268,78 @@ textarea {
   cursor: pointer;
 }
 .postimage-1 {
-  width: $post_width;
+  width: 450px;
   height: 231.4px; 
+  border: solid #dddfe2;
+  border-width: 1px 0px 1px 0px;
+  left: -10px;
+  position: relative;
 }
-.laruga-postimage-1 {
-  border-radius: 0px 0px 5px 5px;
+.postgeneraltext-1 > .fa-ellipsis-h {
+  cursor: pointer;
+}
+.reactions {
+  display: flex;
+  width: 430px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+.reactions-space {
+  width: 430px;
+  height: 40px;
+  border-bottom: 1px solid #dddfe2;
+  display: flex;
+  align-items: center;
+}
+.reactions-icons {
+  width: 60px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.like, .love, .haha{
+  background: #fff;
+  border-radius: 10px;
+  margin: 0 0 0 -4px;
+  padding: 2px;
+  position: relative;
+}
+.love {
+  z-index: 4;
+}
+.like {
+  z-index: 5;
+}
+.reactions span {
+  color: #777d88;
+  font-family: Arial;
+  font-size: 12px;
+}
+.lcs {
+  width: 430px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dolike, .docomment, .doshare {
+  width: 150px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lcs span {
+  color: #616770;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
 }
 article {
-  margin: 10px;
-  margin-bottom: 5px;
+  margin-left: 10px;
+  margin-top: 10px;
   position: relative;
   width: 430px;
   background: #fff;
@@ -274,6 +348,7 @@ article {
   display: flex;
   flex-direction: column;
   padding: 10px;
+  padding-bottom: 0px;
 }
 button {
   border-radius: 18px;
@@ -301,19 +376,39 @@ author {
 }
 p {
   font-family: Arial;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.38;
 }
-.post1 {
-  width: 150px;
+.postphotodancer-general {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
   height: 46px;
+}
+.post1-photonamedate {
+  width: 330px;
+  height: 50px;
   display: flex;
   align-items: center;
 }
+.post1-imagetext {
+  width: 430px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .postdiv1 {
   width: 150px;
-  height: 46px;
+  height: 50px;
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
+  margin-left: 5px;
   justify-content: center;
+}
+.myPosts {
+  width: $post_width;
+  height: 100%; 
 }

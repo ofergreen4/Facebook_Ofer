@@ -4,6 +4,10 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  position: fixed;
+  z-index: 1;
+  top: 40px;
+  right: 200px;
 }
 .stories {
   width: $event_width;

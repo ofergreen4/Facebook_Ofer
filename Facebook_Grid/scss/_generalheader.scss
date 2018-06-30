@@ -1,41 +1,25 @@
 .container {
   position: relative;
-  height: 1000px;
-  overflow: hidden;
+  top: 40px;
+  height: 100%;
   width: 100%;
+  background: #E9EBED;
 }
 .fbpage {
   background: #E9EBED;
-  width: 100%;
+  width: 960px;
   height: 100%;
   display: flex;
-  justify-content: center;
-  position: absolute;
-  top: 40px;
-}
-.whitespaceleft .whitespaceright {
-  width: 200px;
-  height: 100%;
-}
-.middle {
-  display: relative;
-  width: calc(100% - 400px);
-  height: 100%;
-}
-.flex-minicontainer {
-  position: absolute;
-  left: 380px;
-  width: 769px;
-  height: 1000px;
-  display: flex;
-  justify-content: space-evenly; 
+  // justify-content: center;
+  margin: auto;
+  position: relative;
 }
 .header {
   height: 40px;
   width: 100%;
   background: #4267b2;
   position: fixed;
-  z-index: 1;
+  z-index: 10;
 }
 .headerLeft {
   width: 480px;
